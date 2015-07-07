@@ -1,0 +1,281 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+html {
+	margin: 0;
+	padding: 0;
+	height:100%;
+	background: #CCC url(background_bg.gif);
+	background-repeat:
+	
+	}
+	
+body{
+	font: 75% Museo, Helvetica, Arial, sans-serif; 		    
+	line-height:120%;
+	color:#C06;
+	margin-bottom:20px;
+	position:relative;
+	
+}
+
+p{
+	margin-top:10px;
+	padding-left:10px;
+	
+	text-align:justify;
+	text-decoration:none;
+	color:#000;
+}
+#container{
+	width:820px;
+	padding:20px 30px 10px 20px;
+	margin: 0 auto;
+	background-color:#fff;
+	padding-bottom:200px;
+	border:1px solid #C06;
+	
+	
+	}
+	
+#preamble h3, #explanation h3, #benefits h3, #requirements h3 {
+	background:transparent url(heading_bg.gif) left top no-repeat;
+	text-align:left;
+	padding: 20px 5px 20px 5px;
+	margin: -5px 0 20px 0;
+	min-height: 25px;}
+
+a:link { 
+	font-weight:100; 
+	text-decoration: none; 
+	color: #C06;
+	}
+a:visited { 
+	font-weight: 100; 
+	text-decoration: none; 
+	color: #CCC;
+	}
+a:hover, a:active { 
+	text-decoration: underline; 
+	color: #C3C;
+	}
+#explanation{
+	float:right;
+	width:40%;
+	margin: 5px 10px 10px 15px;
+	padding: 5px;
+	clear:right;
+	padding: 10px;
+	padding-bottom: 140px;
+	border: 1px solid #C06;
+	background: transparent url(glass_bg.gif) left bottom repeat-x;
+	overflow:hidden;
+}
+#participation{
+	float:right;
+	width:30%;
+	margin: 5px 10px 20px 15px;
+	padding: 5px;
+	padding-bottom: 22px;
+	border: 1px solid #C06;
+}
+
+#benefits{
+	float:right;
+	clear:left;
+	width: 76%;
+	margin: 5px 10px 10px 15px;
+	padding: 5px;
+	margin:5px;
+	padding: 5px;
+	border: 1px solid #C06;
+	}
+#requirements{
+	clear:both;
+	float:right;
+	width: 76%;
+	background-color:#FFF;
+	margin:5px;
+	padding: 5px;
+	padding-bottom:5px;
+	border: 1px solid #C06;
+	}
+#preamble{
+	margin: 15px;
+	padding: 8px;
+	border: 1px solid #C06;}
+ul{
+	list-style-type:none;}
+li{
+	background: transparent url(list_image.gif) 0 10px no-repeat;
+	line-height:85%;
+	padding: 15px;
+	margin-left:-30px;
+	font-size: 85%;
+	
+	 
+}
+
+	
+
+#benefits h3, #requirements h3, #participation h3, #explanation h3, #preamble h3 {
+	font-size:1.3em;
+	text-align:left;
+	overflow:hidden;
+	padding-bottom:10px;
+}
+h3{
+	font-size:1.3em;
+	text-align:center;
+	padding: 3px 10px;
+	background-color:#999;
+	overflow:hidden;
+}
+
+#footer{
+	background-position:center bottom;
+	float:left;
+	clear:both;
+	width:818px;
+	padding:45px;
+	padding-right:0;
+	padding-left:0;
+	background-color:#FFF;
+	border: 1px solid #C06;
+	text-align:center;
+	margin-bottom:50px;
+
+}
+	
+	
+#pageHeader {
+	background-color:#CCC;
+	padding:10px;
+	font:Georgia, "Times New Roman", Times, serif;
+	position:relative;
+	
+	}
+#lselect, #larchives, #lresources{
+	background-color:#CCC;
+	overflow:hidden;
+	width:148px;
+	margin: 5px 30px -5px 10px;
+	padding: 5px;
+	
+}
+#lselect h3, #larchives h3, #lresources h3{background: url(heading_3_bg.gif) no-repeat;
+	text-align:left;
+	padding: 18px 6px;
+	margin: 4px 0px;
+	}
+	
+
+	
+#quickSummary{
+	margin: 5px 10px 10px 15px;
+	padding: 5px;
+	float:left;
+	width:18%;
+}
+#lresources  {
+	background-color:#ccc;}
+	
+
+#intro{
+	margin:10px;
+	}
+#pageHeader{background-image:url(banner_bg.gif);
+	background-repeat:no-repeat;
+	min-height:280px;
+	
+	}
+#pageHeader h1 span,#pageHeader h2 {
+	display:none;
+	}
+	
+#pageHeader h1{
+	background: transparent url(bottle_glug.gif) left top no-repeat;
+	background-position:left center;
+	position:absolute;
+	z-index:1000;
+	top: -115px; 
+	left:-35px;
+	width:150px;
+	height:400px;
+}
+
+/*#extraDiv1 {
+	background: transparent url(bottle_glug.gif) left top no-repeat;
+	background-position:left center;
+	position:absolute;
+	z-index:1000;
+	top: 20px; 
+	left:100px;
+	width:150px;
+	height:400px;
+	}*/
+	
+#footer {
+	background: #FFF url(glass_bg.gif) center top repeat-x;
+	}
+#quickSummary p.p1{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	padding-top: 25px;
+	padding-bottom:25px;
+	display:;
+	background:url(preamble.gif) no-repeat;
+	min-width:160px;
+	min-height:98px;
+	
+}
+#quickSummary p.p1 span{
+	display:none;}
+#benefits h3, #requirements h3 {
+	text-align:left;
+	padding: 20px 8px;
+	margin: 5px;}
+	#participation h3{
+		background:url(heading_3_bg.gif) no-repeat;text-align:left;
+	padding: 20px 8px;
+	margin: 5px;}
+	
+	#footer a {
+		background:transparent url(heading_3_bg.gif) no-repeat;
+		padding: 50px;
+		padding-right: 85px;
+		text-align:left;
+		background-position:left center;
+		color:#36c;
+		font-size:130%;
+		font-family: Helvetica, Arial, sans-serif;
+		font-variant:small-caps}
+		
+	#footer a:hover{
+		background-image:url(Cookie.gif);
+		background-position:center center;
+		position:relative;
+		margin-left:-15px;
+		color:#FFF;
+		font-weight:bold;
+		font-family:"Arial Black", Gadget, sans-serif;
+		text-decoration:none;
+		text-align:right;
+		font-stretch:expanded;
+		
+		
+	}
+
+acronym{
+	color:#36C;
+	text-decoration:none;
+	cursor:pointer;
+}
+	
